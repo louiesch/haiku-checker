@@ -34,29 +34,6 @@ export function countDips(string) {
   }
 }
 
-// endsWithE()
-
-// word = string.split(" ")
-
-// if charAt(word.length - 1) = e && word.length - 2 != le
-
-
-
-// const endsWithE = (string) => {
-//   return (word = null) => {
-//     if (word !== null) {
-//       return word.length - 1;
-//     }
-//     return () => {
-//       const word = (string.split(' '));
-//       if (word[wordIndex] === e && word[wordIndex - 1] !== l) {
-//         return - 1;
-//       }
-//       return endsWithE(string)(wordIndex - 1);
-//     }
-//   }
-// } 
-
 
 
 export const endsWithE = (string) => {
@@ -67,5 +44,5 @@ export const endsWithE = (string) => {
       sub -= 1;
     }
   }
-return sub;
+  return sub;
 }
