@@ -22,7 +22,7 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Setup/Installation Requirements
 
-* _Clone repository from GitHub using: $ git clone https://github.com/louiesch/template-repo_
+* _Clone repository from GitHub using: $ git clone https://github.com/louiesch/haiku-checker_
 * _Open project directory in terminal_
 * _Re-build project environment using command $ npm install_
 * _Create project environment using command $ npm run build_
