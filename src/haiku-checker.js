@@ -6,14 +6,22 @@ export function countVowels(string) {
   }
 }
 
-export function isHaiku(string) {
-  if (countVowels(string) < 17) {
-    return false;
+export const isHaiku = (string1) => {
+  return (string2) => {
+    return (string3) => {
+      if (countVowels(string1) < 5 || countVowels(string3) < 5 || countVowels(string2) < 7) {
+        return false;
+      } else {
+        return true;
+      }
+    }
   }
 }
 
+//countDips is to count number of dipthongs
+// export function countDips(string) {
 
-// countDips()
+// }
 
 // endsWithE()
 
