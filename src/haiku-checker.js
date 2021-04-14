@@ -6,8 +6,10 @@ export function countVowels(string) {
   }
 }
 
-export function isHaiku() {
-  
+export function isHaiku(string) {
+  if (countVowels(string) < 17) {
+    return false;
+  }
 }
 
 
