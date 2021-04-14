@@ -1,7 +1,3 @@
-// export function isVowel() {
-
-// }
-
 export function countVowels(string) {
   if (string.match(/[aeiouy]/gi)) {
     return string.match(/[aeiouy]/gi).length;
@@ -10,6 +6,16 @@ export function countVowels(string) {
   }
 }
 
+export function isHaiku() {
+  
+}
+
+
 // countDips()
 
 // endsWithE()
+
+//haiku checker(){
+//if (countVowles < 17)
+// not a haiku.
+//}
