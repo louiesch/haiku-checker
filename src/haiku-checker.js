@@ -18,10 +18,14 @@ export const isHaiku = (string1) => {
   }
 }
 
-//countDips is to count number of dipthongs
-// export function countDips(string) {
-
-// }
+// countDips is to count number of dipthongs
+export function countDips(string) {
+  if (string.match(/aw|au|ew|oo|oi|oy|ow|ou/gi)) {
+    return string.match(/aw|au|ew|oo|oi|oy|ow|ou/gi).length;
+  } else {
+    return "no dips babey";
+  }
+}
 
 // endsWithE()
 
